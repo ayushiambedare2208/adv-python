@@ -12,9 +12,9 @@ def simple_interest(p: float|int, n: int, r: float|int) -> tuple:
     return a, i
 
 # TAKE P, N, R AS INPUT FROM THE USER 
-p = float(input("Enter the Principle in INR"))
-n = int(input("Enter the Number of years:"))
-r = float(input("Enter the rate of interest in % p.a"))
+p = float(input("Enter the Principle in INR: "))
+n = int(input("Enter the Number of years: "))
+r = float(input("Enter the rate of interest in % p.a: "))
 
 # CALL THE SIMPLE INTERST FUNCTION
 i , a = simple_interest(p, n, r)
